@@ -1,10 +1,14 @@
 TODO as of 28/09/15
 
+
+[DONE 29/09/15 - Antony Garand]
 Adapt the current theme into a php includeable form:
     preHtml.inc.php
     header.inc.php
     [regular content]
     footer.inc.php
+	[EXTRA]
+	Adapt the sidebar which is currently hardcoded, maybe find something to go in it?
 
 Adapt the css, js and images to the includes folder
 
