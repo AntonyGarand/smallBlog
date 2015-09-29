@@ -1,0 +1,44 @@
+TODO as of 28/09/15
+
+Adapt the current theme into a php includeable form:
+    preHtml.inc.php
+    header.inc.php
+    [regular content]
+    footer.inc.php
+
+Adapt the css, js and images to the includes folder
+
+Define the documents in the menu:
+    Sample folder:
+    
+    [facebook]
+        [private messaging]
+        text.md
+        [images]
+            ui.png
+            messages.png
+        [adding a friend]
+        text.md
+            ui.png
+            profile.png
+    [
+            
+    
+Must be recursively defined with our code:
+    [Menu] -> [Submenu1] [Submenu2] ...
+    [facebook] -> [private messageing] [adding a friend]
+
+Convert from markdown to content:
+    Suggested converter:    
+    https://github.com/erusev/parsedown
+
+Make the theme a lot nicer:
+    Playing with css only, the layout is fine as is. 
+	
+	
+RESSOURCES:
+	Template
+	https://github.com/MichaelvanLaar/Website-Template-Starting-Point
+	
+	Coding style
+	https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md

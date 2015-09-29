@@ -1,0 +1,6 @@
+Thumbs.db
+.idea
+WTSP-Logo.svg
+# Vim temp files
+*.swp
+*.swo
