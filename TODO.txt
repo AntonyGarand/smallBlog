@@ -12,30 +12,34 @@ Adapt the current theme into a php includeable form:
 
 Adapt the css, js and images to the includes folder
 
+[DONE 03/10/15 - Antony Garand]
 Define the documents in the menu:
     Sample folder:
-    
-    [facebook]
-        [private messaging]
-        text.md
-        [images]
-            ui.png
-            messages.png
-        [adding a friend]
-        text.md
-            ui.png
-            profile.png
-    [
-            
-    
+	[facebook]
+		[private messaging]
+			text.md
+			[media]
+				ui.png
+				messages.png
+		[adding a friend]
+			text.md
+			[media]
+				ui.png
+				profile.png
+
+[DONE 03/10/15 - Antony Garand]
 Must be recursively defined with our code:
-    [Menu] -> [Submenu1] [Submenu2] ...
+    [Menu] -> [Submenu1] [Submenu2] ...
     [facebook] -> [private messageing] [adding a friend]
 
-Convert from markdown to content:
-    Suggested converter:    
-    https://github.com/erusev/parsedown
-
+Opening a post:
+	Create a posts.php
+	edit the .htaccess to redirect /post/stuff/here to /post.php?id=stuff/here/
+	Write the post using the content from ./posts/(id value)
+	Convert from markdown to content:
+		Suggested converter:    
+		https://github.com/erusev/parsedown
+		
 Make the theme a lot nicer:
     Playing with css only, the layout is fine as is. 
 	
